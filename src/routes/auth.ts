@@ -6,7 +6,7 @@ const router = Router();
 // @desc  Authenticate User
 // @access Public
 router.get("/", (req: Request, res: Response) => {
-  res.send(200);
+    res.send(200);
 });
 
 export default router;
